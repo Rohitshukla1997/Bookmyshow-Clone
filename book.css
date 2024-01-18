@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+}
+
+/* header */
+
+.header {
+    background-color: rgba(49,50,66,255);
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+}
+
+.header>img {
+    width: 160px;
+    height: 60px;
+
+}
+
+.header>img:hover {
+    cursor: pointer;
+    border-color: white;
+}
+
+.headertext>p {
+    color: rgb(155, 154, 154);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.headertext>h3 {
+    color: white;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.headerData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid #0f1111; */
+    
+}
+
+.headerData:hover {
+    cursor: pointer;
+    border-color: white;
+}
+
+
+.headerSomething:hover {
+    cursor: pointer;
+    border-color: white;
+}
+
+.header>input {
+    width: 40%;
+    height: 38px;
+    font-size: 16px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+#sicon{
+        position: fixed;
+        left: 315px;
+        top: 25px;
+}
+
+
+
+/* ---------------------------------------------------------------------- */
+
+/* navbar */
+
+nav {
+    background-color: rgba(34,36,56,255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1px;
+    padding-left: 60px;
+}
+
+nav>p {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #212525;
+    padding: 10px;
+    border-radius: 2px;
+    
+}
+
+#nr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1px;
+    padding-left: 510px;
+
+}
+
+nav>p:hover{
+    cursor: pointer;
+    border-color: white;
+}
+
+
+/* image */
+
+.imgTag{
+        padding-left: 45px;
+        margin: 5px;
+        
+}
+
+
+/* ------------------------------------------------------------------- */
+
+
+/* Gallery */
+
+h2{
+    display: inline;
+    padding-left: 50px;
+    font-weight: 400;
+}
+
+h4{
+    display: inline;
+    padding-left: 940px;
+    color: red;
+    font-weight: 400;
+    
+}
+
+
+div.gallery {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 30px;
+    padding-top: 10px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 500%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* ------------------------------------------------------------------------- */
+
+  /* Downside */
+
+.img1{
+
+    padding-left: 70px;
+    padding-top: 40%;
+    
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+    
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 15px;
+  }
+
+
+
+
+
+
+
